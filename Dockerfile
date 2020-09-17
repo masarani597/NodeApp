@@ -12,6 +12,6 @@ COPY package.json .
 COPY package-lock.json .
 
 RUN ["npm", "install"]
-RUN ["npm", "main.js"]
+CMD ["npm", "./main.js"]
 
 
