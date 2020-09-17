@@ -14,4 +14,5 @@ COPY package-lock.json .
 RUN ["npm", "install"]
 CMD ["node", "./main.js"]
 
+EXPOSE 8000
 
